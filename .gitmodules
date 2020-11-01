@@ -1,0 +1,23 @@
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/git/poky
+	branch = dunfell
+[submodule "meta-raspberrypi"]
+	path = meta-raspberrypi
+	url = https://github.com/agherzan/meta-raspberrypi.git
+	branch = dunfell
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = dunfell
+[submodule "meta-browser"]
+	path = meta-browser
+	url = https://github.com/OSSystems/meta-browser.git
+[submodule "meta-clang"]
+	path = meta-clang
+	url = https://github.com/kraj/meta-clang.git
+	branch = dunfell
+[submodule "meta-python2"]
+	path = meta-python2
+	url = https://git.openembedded.org/meta-python2
+	branch = dunfell

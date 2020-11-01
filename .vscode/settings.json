@@ -1,0 +1,10 @@
+{
+    "files.watcherExclude": {
+        "build/**": true,
+        "build/conf/**": false
+    },
+    "search.exclude": {
+        "build/**": true,
+        "build/conf/**": false
+    }
+}

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+sudo -u app chromium \
+  --incognito \
+  --overscroll-history-navigation=0 \
+  --enable-kiosk-mode \
+  --kiosk /app/bootstrap.html \
+  --disable-touch-drag-drop \
+  --touch-events=enabled \
+  --noerrdialogs \
+  --hide-scrollbars \
+  --remote-debugging-port=9222 \
+  --no-first-run \
+  --disable-notifications \
+  &
+
+exec matchbox-window-manager
