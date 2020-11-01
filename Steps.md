@@ -11,5 +11,4 @@ configure yocto to run initfs image
 configure yocto to append it to the kernal
 
 manaully get from initramfs shell to booting into partion
- - figure out command line to get from 
- - initramfs into running off sd card
+ - figure out command line to get from initramfs into running off sd card
