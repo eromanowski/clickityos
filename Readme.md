@@ -1,7 +1,7 @@
 - Focus on getting my app running
 - Native node modules where I may need to add compilers
 
-- Product squashfs output from clickity-image
+- Produce squashfs output from clickity-image
  - output squashfs-xz (better compression, longer to compress) - https://en.wikipedia.org/wiki/SquashFS
  - initramfs
   - include initramfs image that includes an init script - init script should run bash 
