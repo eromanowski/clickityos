@@ -1,5 +1,5 @@
 // TODO
-- Focus on getting my other repository running
+- Focus on getting my repository running on clickityos image
 - Native node modules where I may need to add compilers
 
 ## squashfs
