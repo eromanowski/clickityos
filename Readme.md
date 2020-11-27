@@ -15,4 +15,5 @@
 
 ## yocto
 [ ] configure yocto to run initfs image
+
 [ ] configure yocto to append it to the kernal
