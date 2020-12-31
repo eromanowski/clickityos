@@ -21,3 +21,6 @@
 	path = meta-python2
 	url = https://git.openembedded.org/meta-python2
 	branch = dunfell
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
