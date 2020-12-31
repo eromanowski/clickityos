@@ -1,0 +1,18 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 0895f49..35f21e9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -89,3 +89,13 @@ if(AASDK_TEST)
+         setup_target_for_coverage(NAME aasdk_coverage EXECUTABLE aasdk_ut DEPENDENCIES aasdk_ut)
+     endif(AASDK_CODE_COVERAGE)
+ endif(AASDK_TEST)
++
++set_target_properties(aasdk aasdk_proto PROPERTIES VERSION 1.0.0 SOVERSION 1.0.0)
++
++install(TARGETS aasdk aasdk_proto
++    PUBLIC_HEADER
++)
++
++install(TARGETS aasdk aasdk_proto 
++    LIBRARY
++)
