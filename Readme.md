@@ -1,6 +1,4 @@
 ## TODO
-- Need to find help building an OpenAuto recipe
-- Focus on getting my repository running on clickityos image
 - Native node modules where I may need to add compilers
 
 ## squashfs
